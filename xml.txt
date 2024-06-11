@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectionsResponse>
+ <status>OK</status>
+ <route>
+  <summary>Finch Ave W</summary>
+  <leg>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>43.7453887</lat>
+     <lng>-79.5237487</lng>
+    </start_location>
+    <end_location>
+     <lat>43.7448887</lat>
+     <lng>-79.5259899</lng>
+    </end_location>
+    <polyline>
+     <points>u__jGl~jdNDZF\VfBLz@n@`F</points>
+    </polyline>
+    <duration>
+     <value>42</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Head &lt;b&gt;west&lt;/b&gt; on &lt;b&gt;Jody Ave&lt;/b&gt; toward &lt;b&gt;Oakdale Rd&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>188</value>
+     <text>0.2 km</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>43.7448887</lat>
+     <lng>-79.5259899</lng>
+    </start_location>
+    <end_location>
+     <lat>43.7558859</lat>
+     <lng>-79.5242500</lng>
+    </end_location>
+    <polyline>
+     <points>q|~iGllkdNQD_CZcFr@aFr@yFx@QDUBQ@Q@E?GAE?AAE?EAGCMEKEqEiBKEKEQCCAC?EAI?I?E?M?QByCb@C@YDU@MAG?MCSGOGKGMIGIKKKMIOGMKYaBkE]aAISEIEKEIEIGECECEGGCCECCEECCCCACCCAEAECKCECE?CAICIAI?G?C?E?G@M@GB[HQF[J]Lw@VOD</points>
+    </polyline>
+    <duration>
+     <value>163</value>
+     <text>3 mins</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;right&lt;/b&gt; onto &lt;b&gt;Oakdale Rd&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>1344</value>
+     <text>1.3 km</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>43.7558859</lat>
+     <lng>-79.5242500</lng>
+    </start_location>
+    <end_location>
+     <lat>43.7677743</lat>
+     <lng>-79.4714640</lng>
+    </end_location>
+    <polyline>
+     <points>iaajGpakdNc@aDo@eEi@sDe@qDc@wCOiAE]I{@CWGi@IcBIaB?]C_@EcAAGAKM]?KAKEo@Ky@Ik@CWOgAE]YsBYuBKs@WiBYuBQsA_@oCIk@WgBMeA[uBK{@EYE[]aCe@oDmA}IAIa@wCESi@cEE]WgBIk@YqBAKi@sDe@kDOmAWcBE[YwBKu@}DsYGa@CSESESCOGWCOACGSK[GOEMSe@KWEMY}@EO]_@EOGSCMKe@GY[yAW{A@O?G?EEYO_AKq@Iq@Gc@?AQsA?AMcACm@C]EYQqAYqBKy@k@gEQsASwA_@sCWkBGc@@O?I?EAE?GAIe@oDIm@McAKw@]eCQoAOeAM}@Ks@WqBOaASwAIm@M{@ESGYCOIk@Ek@QsAAEGa@QqAU}AMy@Ks@Io@MaAIk@QmAOgAGe@Iq@OeAQsAIo@G_@Gk@AAK{@Iu@</points>
+    </polyline>
+    <duration>
+     <value>547</value>
+     <text>9 mins</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;right&lt;/b&gt; onto &lt;b&gt;Finch Ave W&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>4454</value>
+     <text>4.5 km</text>
+    </distance>
+    <maneuver>turn-right</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>43.7677743</lat>
+     <lng>-79.4714640</lng>
+    </start_location>
+    <end_location>
+     <lat>43.7742936</lat>
+     <lng>-79.4733582</lng>
+    </end_location>
+    <polyline>
+     <points>qkcjGrw`dNU@_@AK@A?I?G?K@I@OBe@FYDs@LMBk@JcBX{ATu@LMBM@U@_@D_@Bc@DUBQ@K@OBE@g@Pi@Ng@P_EpAkBj@QHWFgA\</points>
+    </polyline>
+    <duration>
+     <value>102</value>
+     <text>2 mins</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;Alness St&lt;/b&gt;</html_instructions>
+    <distance>
+     <value>743</value>
+     <text>0.7 km</text>
+    </distance>
+    <maneuver>turn-left</maneuver>
+   </step>
+   <step>
+    <travel_mode>DRIVING</travel_mode>
+    <start_location>
+     <lat>43.7742936</lat>
+     <lng>-79.4733582</lng>
+    </start_location>
+    <end_location>
+     <lat>43.7729541</lat>
+     <lng>-79.4793823</lng>
+    </end_location>
+    <polyline>
+     <points>itdjGncadNTbBBLD\BL\jCPlAv@bG~BvP</points>
+    </polyline>
+    <duration>
+     <value>65</value>
+     <text>1 min</text>
+    </duration>
+    <html_instructions>Turn &lt;b&gt;left&lt;/b&gt; onto &lt;b&gt;Martin Ross Ave&lt;/b&gt;&lt;div style=&quot;font-size:0.9em&quot;&gt;Destination will be on the left&lt;/div&gt;</html_instructions>
+    <distance>
+     <value>506</value>
+     <text>0.5 km</text>
+    </distance>
+    <maneuver>turn-left</maneuver>
+   </step>
+   <duration>
+    <value>919</value>
+    <text>15 mins</text>
+   </duration>
+   <distance>
+    <value>7235</value>
+    <text>7.2 km</text>
+   </distance>
+   <start_location>
+    <lat>43.7453887</lat>
+    <lng>-79.5237487</lng>
+   </start_location>
+   <end_location>
+    <lat>43.7729541</lat>
+    <lng>-79.4793823</lng>
+   </end_location>
+   <start_address>3 Jody Ave, North York, ON M3N 1H3, Canada</start_address>
+   <end_address>125 Martin Ross Ave, North York, ON M3J 2L9, Canada</end_address>
+  </leg>
+  <copyrights>Map data ©2017 Google</copyrights>
+  <overview_polyline>
+   <points>u__jGl~jdNr@|En@`FQDcJnAcOvBq@@SCsFyBm@Q]AS?kDf@]Fc@?UCc@OYQSUU]Sg@oCkHYe@SWe@[]Ka@GY@cAVaCv@sAgJoAeJs@aFOyAKaASeEC}@GkAOi@AWQiBMcAiAoI_DqU}Iap@aJop@W}AQ{@a@mA_@}@_@kAEO]_@Mc@s@gDW{A@O?Mk@}DY{BQqBIw@cBeM}AkLGc@@O?Oi@gE}BwPeAyH_@yBc@qD}@kGaB_MsAiKcA@g@B}J~AgBTyBRs@HyHdC}EzAb@|CfFt_@</points>
+  </overview_polyline>
+  <bounds>
+   <southwest>
+    <lat>43.7448887</lat>
+    <lng>-79.5270311</lng>
+   </southwest>
+   <northeast>
+    <lat>43.7742936</lat>
+    <lng>-79.4714640</lng>
+   </northeast>
+  </bounds>
+ </route>
+ <geocoded_waypoint>
+  <geocoder_status>OK</geocoder_status>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <place_id>ChIJIWipsKc6K4gRzL3avkUhOuU</place_id>
+ </geocoded_waypoint>
+ <geocoded_waypoint>
+  <geocoder_status>OK</geocoder_status>
+  <type>establishment</type>
+  <type>point_of_interest</type>
+  <place_id>ChIJMxKmDA8uK4gRChNmx6LA-bM</place_id>
+ </geocoded_waypoint>
+</DirectionsResponse>

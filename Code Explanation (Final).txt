@@ -1,0 +1,32 @@
+:::FirstLine.py:::
+- opens txt file that contains location inputs (file in project folder)
+2: "r" means read-only (other parameters available)  beacause we dont wanna modify it so precaition
+- variable type is determined during the runtime so no int, double etc.
+3: read() method reads the locations file, split() splits chunk of info using delimiter (delimiter used here is "\n" which is equivalent to an new line or enter button; thus every occurrence of new line will split one line of string from the other, making an array of lines of string and store into locList)
+6: open csv file and write to it (w indicates read-and-write); more technically, it opens an output stream (think stream like a canal and flowing water as info) through which information can be written down into any file
+7: another output stream is opened to a csv file
+10: for_loop, x points to the first location then traverses through each location
+11 and 12: writes down the location x is pointing at into two different csv files, one for duration and the other for distance
+14 and 15: close() closes the output streams, this is important to complete the writing process
+
+
+:::getData.py:::
+- stores URL and API key into variables which are used later in the code
+12 and 13: "a" means append data, this is different from "w" in that it adds more data to the previous data and does not overwrite in the file
+16: outer for_loop
+17 and 18: writes locations again but this time they are written in every row (so that a cross table is now formed at this point with previously writing locations in every column)
+19: inner for_loop
+20 and 21: skips a column since first column contains headers
+22: IF statement checks if distance / duration belongs to a route where start and end locations are the same (obviously wont make sense thus we skip fetching data for such cases)
+23: PARAMS is an object that has origin, destination and key variables; PARAMS object is needed for the next line and its format (these certain variables) are important (cant be different)
+24: uses get() function to provide URL and PARAMS and retrieve info in an humanly unreadable format
+25: json() converts the unreadable format into JSON object (this is called parsing)
+26 and 27: retrieves exact parameters / variables from JSON object, indices like [0] can be seen because data in this JSON object are sometimes in array format, thus using [0] simply gives the first item of the array (even though array may contain literally 1 item only, it still makes it into an array and sends data because thats how Google made it so, such noobs)
+28 and 29: writes into csv files after using str() function which converts data of different type into string format, because we can only write strings
+- last statements are to close streams
+
+
+:::run file:::
+- bash script (runs only on Mac or Linux)
+- for_loop that runs for certain times any given python file, then sleeps for a certain period of time, hence this is used to automate the process of retrieving data (getData.py can be run every whatever time interval and for any number of times)
+- type "./run" on the terminal window after going to the directory where the run executable file is located
