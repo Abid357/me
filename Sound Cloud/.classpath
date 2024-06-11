@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="CO551_A2_2016_Eclipse-Friendly/src/|data/|doc/|libs/" kind="src" path=""/>
+	<classpathentry kind="src" path="data"/>
+	<classpathentry kind="src" path="doc"/>
+	<classpathentry kind="src" path="libs"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/Abid/Desktop/Sound Cloud/libs/opencsv-3.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
